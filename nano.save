@@ -1,7 +1,0 @@
-musixmatch = Musixmatch('ac08b89984003ee295dfe6f5d4f981b1')
-# musixmatch = Musixmatch(<key>)
-
-#values changed for security purposes.
-#access apps.twitter.com to find the values for your specific project
-auth = tweepy.OAuthHandler('ijd6SPybb8W8wHnUBmI3riELv' , 'HxeKADvBKggSVP5k8wrfJcUIAoj0f8xBHSiSUflwDPtMC7V2gp')
-auth.set_access_token('1034616767295963136-PRWz53P87ahuFOT2WHhqF7XkOcy48W', 'MwwGZOP03Tk4Ph3HrxKIAcEABsygGoVW1e3QPugvrFebL')
