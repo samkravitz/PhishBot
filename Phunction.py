@@ -1,7 +1,8 @@
 import random
 from musixmatch import Musixmatch
+from credentials import *
 
-musixmatch = Musixmatch('<key>')
+musixmatch = Musixmatch(music_key)
 
 def getTweet(albums):
     num_albums = len(albums)

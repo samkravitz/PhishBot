@@ -8,15 +8,14 @@ import time
 import random
 from Phunction import getTweet
 from musixmatch import Musixmatch
+from credentials import *
 
-
-musixmatch = Musixmatch('<key>')
+musixmatch = Musixmatch(music_key)
 
 #values changed for security purposes.
 #access apps.twitter.com to find the values for your specific project
-auth = tweepy.OAuthHandler('<consumer_key>', '<consumer_secret>')
-auth.set_access_token('<access_token>', '<access_token_secret>')
-
+auth = tweepy.OAuthHandler(consumer_key , consumer_secret)
+auth.set_access_token(access_token, access_secret)
 
 #authorizes the bot and loads in its username
 api = tweepy.API(auth)
